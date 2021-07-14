@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Event_Details_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Event_Details_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>End_Date_Time__c</fullName>
+        <description>Displays the event&apos;s end date/time</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the event&apos;s end date/time</inlineHelpText>
+        <label>End Date/Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Event_Type__c</fullName>
+        <description>Displays the type of the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the type of the event</inlineHelpText>
+        <label>Event Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In-Person</fullName>
+                    <default>false</default>
+                    <label>In-Person</label>
+                </value>
+                <value>
+                    <fullName>Virtual</fullName>
+                    <default>false</default>
+                    <label>Virtual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Frequency__c</fullName>
+        <description>Displays the frequency of the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the status of the event</inlineHelpText>
+        <label>Frequency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Live__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Displays if the event is live or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if the event is live</inlineHelpText>
+        <label>Live?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Location_Verified__c</fullName>
+        <description>Display if location is verified</description>
+        <externalId>false</externalId>
+        <formula>Location__r.Verified__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Check if location is verified</inlineHelpText>
+        <label>Location Verified</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Displays the location of the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the location of the event</inlineHelpText>
+        <label>Location</label>
+        <referenceTo>Location__c</referenceTo>
+        <relationshipLabel>Events</relationshipLabel>
+        <relationshipName>Events</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Max_Seats__c</fullName>
+        <description>Displays the maximum capacity for the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the maximum capacity for the event</inlineHelpText>
+        <label>Max Seats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <description>Displays the name of the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the name of the event</inlineHelpText>
+        <label>Name</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Organizer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Displays the name of the event organizer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the event organizer</inlineHelpText>
+        <label>Organizer</label>
+        <referenceTo>Event_Organizer__c</referenceTo>
+        <relationshipLabel>Events</relationshipLabel>
+        <relationshipName>Events</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>People_Attending__c</fullName>
+        <description>Displays the total number of people attending</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Displays the total number of people attending</inlineHelpText>
+        <label>#People Attending</label>
+        <summaryForeignKey>Event_Attendee__c.Event__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Recurring__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Displays if event is recurring or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if event is recurring</inlineHelpText>
+        <label>Recurring?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Remaining_Seats__c</fullName>
+        <description>Displays the remaining number of seats for the event</description>
+        <externalId>false</externalId>
+        <formula>Max_Seats__c -  People_Attending__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Displays the remaining number of seats for the event</inlineHelpText>
+        <label>Remaining Seats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Time__c</fullName>
+        <description>Displays the event&apos;s starting date/time</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the event&apos;s starting date/time</inlineHelpText>
+        <label>Start Date/Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Status_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL( Status__c , &apos;Deleted&apos;) , (IMAGE(&quot;https://www.pngitem.com/pimgs/m/508-5080910_red-flag-red-flag-waving-gif-hd-png.png&quot;,&quot;Red Flag&quot;, 25,25)),null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Indicator</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Displays the status of the event</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose the status of the event</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Deleted</fullName>
+                    <default>false</default>
+                    <label>Deleted</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Postponed</fullName>
+                    <default>false</default>
+                    <label>Postponed</label>
+                </value>
+                <value>
+                    <fullName>Published</fullName>
+                    <default>false</default>
+                    <label>Published</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Event</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>E-{0000}</displayFormat>
+        <label>Event Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Events</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>EventDateTimeRule</fullName>
+        <active>true</active>
+        <description>End Date/Time must be at least 1 day ahead of Start Date/Time (If there is a value in End Date/Time field).</description>
+        <errorConditionFormula>AND( NOT( ISBLANK( End_Date_Time__c ) ) , DATEVALUE(End_Date_Time__c) &lt;  DATEVALUE(Start_Date_Time__c)+1  )</errorConditionFormula>
+        <errorDisplayField>End_Date_Time__c</errorDisplayField>
+        <errorMessage>Duration of event must be at least 1 day</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EventNotRecurringRule</fullName>
+        <active>true</active>
+        <description>If recurring is unchecked, user should not fill the Frequency field.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(TEXT( Frequency__c ))),   NOT(Recurring__c  ) )</errorConditionFormula>
+        <errorDisplayField>Frequency__c</errorDisplayField>
+        <errorMessage>You must not fill the frequency field for recurring checkbox is unchecked</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EventRecurringRule</fullName>
+        <active>true</active>
+        <description>If recurring is checked, user needs to fill the Frequency field.</description>
+        <errorConditionFormula>AND(ISBLANK(TEXT( Frequency__c )),  Recurring__c )</errorConditionFormula>
+        <errorDisplayField>Frequency__c</errorDisplayField>
+        <errorMessage>You must fill the frequency field for recurring checkbox is checked</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EventTypeInPersonRule</fullName>
+        <active>true</active>
+        <description>If event type is in-person, user must select location of event</description>
+        <errorConditionFormula>AND( ISPICKVAL( Event_Type__c , &apos;In-Person&apos;) , ISBLANK( Location__c  ))</errorConditionFormula>
+        <errorDisplayField>Location__c</errorDisplayField>
+        <errorMessage>You must select a location for event type is in-person</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>EventTypeVirtualRule</fullName>
+        <active>true</active>
+        <description>If event type is virtual, user is prevented to select location of event</description>
+        <errorConditionFormula>AND( ISPICKVAL( Event_Type__c , &apos;Virtual&apos;) , NOT( ISBLANK( Location__c )))</errorConditionFormula>
+        <errorDisplayField>Location__c</errorDisplayField>
+        <errorMessage>You cannot pick a location for the event type is virtual</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
